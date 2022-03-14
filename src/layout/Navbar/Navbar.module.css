@@ -1,0 +1,37 @@
+.menuLayout {
+  background-color: #131313;
+  width: 100%;
+  margin: 0;
+}
+
+.menuLista {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.menuLista li {
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 15px 20px;
+}
+
+.menuLista li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  transition: .4s ease;
+  font-weight: bolder;
+
+}
+
+.menuLista li a:hover{
+  color: blueviolet;
+}
